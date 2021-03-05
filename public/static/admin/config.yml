@@ -1,5 +1,5 @@
 backend:
-  name: with-netlify-cms-app
+  name: git-gateway
   branch: master
 media_folder: static/img
 slug:
