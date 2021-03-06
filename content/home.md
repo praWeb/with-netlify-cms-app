@@ -1,8 +1,11 @@
 ---
-title: Home
-date: 2019-03-17T19:31:20.591Z
+title: Prasanna's Blog
+date: 2021-03-06T10:32:50.865Z
 ---
+## Welcome to my Blog
 
-## Welcome to the Home Page
 
-If you want to know more about Next.js + Netlifycms go to the official tutorial [here](https://www.netlifycms.org/docs/nextjs/).
+
+New mother in Town...
+
+Basically am a web developer, gardener and also moving towards the minimalist life.
