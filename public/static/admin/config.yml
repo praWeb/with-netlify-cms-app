@@ -3,6 +3,7 @@ backend:
   repo: praWeb/with-netlify-cms-app
   branch: main
 media_folder: static/img
+publish_mode: editorial_workflow
 slug:
   encoding: 'ascii'
   clean_accents: true
