@@ -11,11 +11,11 @@ const Post = ({ blogpost }) => {
     <Layout>
       <section>
         <section>
-          <img src={attributes.thumbnail} class="margin-bottom-20 center"/>
+          <img src={attributes.thumbnail} className="margin-bottom-20 center"/>
         </section>
-        <article class="article-container">
+        <article className="article-container">
           <header>
-            <h1 class="article__title text-center">{attributes.title}</h1>
+            <h1 className="article__title text-center">{attributes.title}</h1>
           </header>
           <div dangerouslySetInnerHTML={{ __html: html }} />
         </article>
