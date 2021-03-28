@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   repo: praWeb/with-netlify-cms-app
   branch: main
-media_folder: static/img
+media_folder: public/static/img
 publish_mode: editorial_workflow
 public_folder: "/images/uploads"
 slug:
