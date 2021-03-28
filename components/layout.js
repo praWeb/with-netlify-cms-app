@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import globalStyles from '../pages/style.js'
+import globalStyles from './../styles/global.js'
 
 const Layout = ({ children }) => (
   <>
