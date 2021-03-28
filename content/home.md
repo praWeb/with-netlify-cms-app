@@ -5,8 +5,4 @@ thumbnail: /images/uploads/woman_enjoy_coding_banner.png
 ---
 ## Welcome to my Blog
 
-
-
-New mother in Town...
-
 Basically am a web developer, gardener and also moving towards the minimalist life.
