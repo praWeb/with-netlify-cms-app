@@ -4,6 +4,7 @@ backend:
   branch: main
 media_folder: static/img
 publish_mode: editorial_workflow
+public_folder: "/images/uploads"
 slug:
   encoding: 'ascii'
   clean_accents: true
@@ -11,6 +12,7 @@ slug:
 collections:
   - name: 'pages'
     label: 'Pages'
+    preview_path: "blog/{{year}}/{{month}}/{{slug}}"
     files:
       - label: 'Home'
         name: 'home'
