@@ -21,7 +21,6 @@ const importBlogPosts = async () => {
 
 export async function getStaticProps() {
   const postsList = await importBlogPosts()
-  console.log(postsList)
   return {
     props: {
       postsList,
@@ -46,7 +45,13 @@ const Home = (props) => (
           <Blog postsList={props.postsList}></Blog>
         </section>
         <section className="col-1">
-          <div dangerouslySetInnerHTML={{ __html: html }} />
+          <section className="cards-container margin-top-20@md-down border@md-down">
+            <img src={`/static${attributes.about_image}`} className="card-image"/>
+            <h1 className="card-title">Prasanna Gaddam</h1>
+            <p className="card-description">
+              {attributes.about_me}
+            </p>
+          </section>
         </section>
       </section>
     </Layout>

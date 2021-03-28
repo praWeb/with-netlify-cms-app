@@ -11,7 +11,9 @@ const Post = ({ blogpost }) => {
     <Layout>
       <section>
         <section>
-          <img src={attributes.thumbnail} className="margin-bottom-20 center"/>
+          <a href="/">
+            <img src="/static/images/uploads/woman_enjoy_coding.png" className="margin-bottom-20 center"/>
+          </a>
         </section>
         <article className="article-container">
           <header>
@@ -20,14 +22,6 @@ const Post = ({ blogpost }) => {
           <div dangerouslySetInnerHTML={{ __html: html }} />
         </article>
       </section>
-      <style jsx>{`
-        article {
-          margin: 0 auto;
-        }
-        h1 {
-          text-align: center;
-        }
-      `}</style>
     </Layout>
   )
 }

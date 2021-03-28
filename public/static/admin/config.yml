@@ -60,5 +60,12 @@ collections:
           widget: 'image',
           required: false,
         }
+      - {
+          label: "Tags",
+          name: "tags",
+          widget: "list",
+          max: 5,
+          min: 1
+        }
       - { label: "Description", name: "short_summary", widget: "text", required: true }
       - { label: 'Body', name: 'body', widget: 'markdown', required: true }
