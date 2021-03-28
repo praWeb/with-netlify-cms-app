@@ -1,7 +1,7 @@
 ---
 title: Prasanna's Blog
 date: 2021-03-28T14:38:46.721Z
-thumbnail: /images/uploads/puppy-and-adult-dog.jpg
+thumbnail: /images/uploads/woman_enjoy_coding_banner.png
 ---
 ## Welcome to my Blog
 
