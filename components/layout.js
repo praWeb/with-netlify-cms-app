@@ -3,7 +3,7 @@ import globalStyles from './../styles/global.js'
 
 const Layout = ({ children }) => (
   <>
-    <div class="container">
+    <div className="container">
       <nav>
         <Link href="/">
           <a>home</a>
