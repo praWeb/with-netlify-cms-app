@@ -21,6 +21,12 @@ collections:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Publish Date', name: 'date', widget: 'datetime' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
+          - {
+              label: 'Featured Image',
+              name: 'thumbnail',
+              widget: 'image',
+              required: true,
+            }
       - label: 'About'
         name: 'about'
         file: 'content/about.md'
@@ -46,5 +52,11 @@ collections:
           name: 'thumbnail',
           widget: 'image',
           required: true,
+        }
+      - {
+          label: 'Featured Image for Article page',
+          name: 'article_image',
+          widget: 'image',
+          required: false,
         }
       - { label: 'Body', name: 'body', widget: 'markdown', required: true }

@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import globalStyles from '../pages/style.js'
 
 const Layout = ({ children }) => (
   <>
@@ -14,19 +15,9 @@ const Layout = ({ children }) => (
       </Link>
     </nav>
     <main>{children}</main>
-    <style jsx>{`
-      nav {
-        text-align: center;
-      }
-      nav a {
-        margin-right: 2px;
-        padding: 4px;
-      }
-      main {
-        display: flex;
-        flex-direction: column;
-      }
-    `}</style>
+    <style jsx global>
+      {globalStyles}
+    </style>
   </>
 )
 

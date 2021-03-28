@@ -9,11 +9,17 @@ const Post = ({ blogpost }) => {
 
   return (
     <Layout>
-      <article>
-        <h1>{attributes.title}</h1>
-        <img src={attributes.thumbnail} />
-        <div dangerouslySetInnerHTML={{ __html: html }} />
-      </article>
+      <section class="container">
+        <section>
+          <img src={attributes.thumbnail} class="margin-bottom-20 center"/>
+        </section>
+        <article class="article-container">
+          <header>
+            <h1 class="article__title text-center">{attributes.title}</h1>
+          </header>
+          <div dangerouslySetInnerHTML={{ __html: html }} />
+        </article>
+      </section>
       <style jsx>{`
         article {
           margin: 0 auto;
