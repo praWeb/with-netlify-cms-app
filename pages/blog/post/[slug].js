@@ -9,7 +9,7 @@ const Post = ({ blogpost }) => {
 
   return (
     <Layout>
-      <section class="container">
+      <section>
         <section>
           <img src={attributes.thumbnail} class="margin-bottom-20 center"/>
         </section>
