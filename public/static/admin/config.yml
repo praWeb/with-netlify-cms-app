@@ -4,7 +4,6 @@ backend:
   branch: main
 media_folder: public/static/img
 publish_mode: editorial_workflow
-public_folder: "/images/uploads"
 slug:
   encoding: 'ascii'
   clean_accents: true
