@@ -2,8 +2,9 @@ backend:
   name: git-gateway
   repo: praWeb/with-netlify-cms-app
   branch: main
-media_folder: public/static/img
+media_folder: public/static/images
 publish_mode: editorial_workflow
+public_folder: "/static/images"
 slug:
   encoding: 'ascii'
   clean_accents: true
