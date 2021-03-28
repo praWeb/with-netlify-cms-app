@@ -2,7 +2,7 @@
 title: A Decluttered Mind
 date: 2021-03-28T07:29:46.092Z
 thumbnail: /images/uploads/declutter2.png
-article_image: ""
+article_image: /images/uploads/declutter2_1_1_.png
 short_summary: Mental clutter impacts our performance and concentration.
   Constant worry about future, never ending to-do list, ruminating about the
   past, un-realistic goals/dreams etc., contribute a lot to mental clutter.
