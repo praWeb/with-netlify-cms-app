@@ -1,7 +1,7 @@
 ---
 title: A Decluttered Mind
 date: 2021-03-28T07:29:46.092Z
-thumbnail: /images/uploads/puppy-and-adult-dog.jpg
+thumbnail: /images/uploads/declutter2.png
 ---
 Mental clutter impacts our performance and concentration. Constant worry about future, never ending to-do list, ruminating about the past, un-realistic goals/dreams etc., contribute a lot to mental clutter. The way removing clutter in the house ends up having more space, getting rid of mental clutter gives more joy and happiness to life. It will give you a clarity of thought and purpose of life.
 
